@@ -1,7 +1,7 @@
 {% load static %}
 <html>
     <head>
-        <title>Django Girls blog</title>
+        <title>Django</title>
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
         <link href='//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
@@ -12,7 +12,18 @@
             {% if user.is_authenticated %}
               <a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
             {% endif %}
-            <h1><a href="/">Django Girls Blog</a></h1>
+            <h1><a href="/">Django</a></h1>
+        </div>
+        <div>
+            <p>published: 14.06.2014, 12:14</p>
+            <h2><a href="">Diodo</a></h2>
+            <p>Un diodo es un componente electrónico de dos terminales que permite la circulación de la corriente eléctrica <br> a través de él en un solo sentido, ​ bloqueando el paso si la corriente circula en sentido contrario, no solo sirve <br> para la circulación de corriente eléctrica sino que este la controla y resiste.</p>
+        </div>
+
+        <div>
+            <p>published: 14.06.2014, 12:14</p>
+            <h2><a href="">Condensador</a></h2>
+            <p>Un condensador eléctrico es un dispositivo pasivo, utilizado en electricidad y electrónica, capaz de almacenar energia<br> sustentando un campo eléctrico.</p>
         </div>
         <div class="content container">
             <div class="row">
